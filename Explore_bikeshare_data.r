@@ -1,4 +1,4 @@
-
+#first change
 ny = read.csv('new_york_city.csv')
 wash = read.csv('washington.csv')
 chi = read.csv('chicago.csv')
@@ -9,6 +9,8 @@ head(wash)
 
 head(chi)
 
+# second change
+# third change 
 # 3 Trip duration
 # What is the average travel time for users in different cities?
 
