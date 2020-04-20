@@ -1,4 +1,4 @@
-
+#first change
 ny = read.csv('new_york_city.csv')
 wash = read.csv('washington.csv')
 chi = read.csv('chicago.csv')
@@ -32,8 +32,8 @@ print (wash_avg_travel_time)
 chi_avg_travel_time <- mean(subset (chi$Trip.Duration, ! is.na(chi$Trip.Duration)))
 print (chi_avg_travel_time)
 
-# Travel Time in Washington is the highest 
-# In Washingtonwith the avrege time is 1233.953 
+# Travel Time in Washington is the highest
+# In Washingtonwith the avrege time is 1233.953
 # In New York the avrege time is 903.6147
 # In Chicago the avrege time is 937.1728
 
@@ -59,7 +59,7 @@ summary(chi$User.Type)
 library(ggplot2)
 ggplot(chi, aes(x=User.Type)) + geom_bar() + labs(x = "User Type",title="Count of User Types in Chicago")
 
-#It shown that in all cities the subscriber count is more than the other types 
+#It shown that in all cities the subscriber count is more than the other types
 # The total count of Subscriber 121576 in all the cities
 # The total count of Customer 30754 in all the cities
 
