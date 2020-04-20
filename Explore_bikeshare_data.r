@@ -10,6 +10,7 @@ head(wash)
 head(chi)
 
 # second change
+# third change 
 # 3 Trip duration
 # What is the average travel time for users in different cities?
 
